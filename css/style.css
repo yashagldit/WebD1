@@ -1,0 +1,144 @@
+body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	color: #ff9800;
+	font-size: 4em;
+}
+	
+h3{
+	text-align: center;
+	font-size: 3em;
+}
+h5{
+	text-align: center;
+	font-size: 2em;
+}
+p, li, a, th, td{
+	font-size: 1.2em;
+}
+a:link, a:visited{
+	color: #686868;
+	text-decoration:none;
+}
+a:hover{
+	color: #039be5;
+}
+.nav a:hover{
+	color: #039be5;
+}
+
+.nav{
+	background-color: #29b6f6;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	height: 10vh;
+	text-align: right;
+	margin: 0px;
+
+}
+.nav h2{
+	margin-top: 0px;
+	font-size: 2em;
+	float: left;
+	color: #ffffff;
+}
+.nav li{
+	display: inline;
+	
+	padding: 5px;
+	
+}
+.nav a{
+	color: #ffffff;
+	
+}
+.intro{
+	margin: auto;
+	padding-top: 10px;
+	background-color: #d9dde2;
+}
+.intro img{
+	border-radius: 50%;
+	width: 100%;
+	border-color: #000000;
+	transition:2s;
+	border: 10px;
+	border-style: solid;
+	/*transition: transform .8s ease-in-out;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	shadow: 6px 7px 8px 9px rgbd(1,1,1,0.5);*/
+}
+
+.intro img:hover {
+          transform:rotate(360deg);
+}
+.intro h1{
+	font-size: 3em;
+	color: #ffbd07;
+	text-align: center;
+}
+.intro h5{
+	font-size: 2em;
+	text-align: center;
+	color: #686868;
+}
+.aboutc{
+	background-color: #BBDEFB;
+	padding: 10px 0px 50px 0px;
+}
+.about{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+.button {
+	width: 200px;
+	height: 50px; 
+	text-align: center; 
+	font-size: 1.4em; 
+	padding: 8px;
+	border-radius: 3px; 
+	box-shadow: #686868 2px 2px 2px; 
+	background-color: #03a9f4;
+	margin-bottom: 50px;
+}
+.skillsc{
+	background-color: #EEEEEE;
+	padding: 10px 0px 50px 0px;
+}
+.skills{
+	width:75%;
+	margin: auto;
+	display: block;
+	margin-bottom: 50px;
+	background-color: #EEEEEE
+	
+}
+.socialc{
+	width: 100%;
+	padding: 10px 0px 50px 0px;
+	text-align: center;
+	background-color: yellow;
+}
+.social{
+	text-align: center;
+	margin: auto;
+}
+.quali{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	
+}	
+.quali table{
+	text-align: center;
+}
+.footer{
+	background-color: #BBDEFB;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
